@@ -2,14 +2,25 @@ const express = require("express");
 const router = express.Router();
 const cors = require("cors");
 const nodemailer = require("nodemailer");
+const path = require("path");
 require("dotenv").config();
 
 // server used to send send emails
+
+const PORT = process.env.PORT || 5000;
 const app = express();
 app.use(cors());
 app.use(express.json());
 app.use("/", router);
-app.listen(5000, () => console.log("Server Running"));
+
+//build
+app.use(express.static(path.join(__dirname, "build")));
+app.get("/*", (req, res) => {
+	res.sendFile(path.join(__dirname, "build", "index.html"));
+});
+
+// Node spins up our server and sets it to listen on set port
+app.listen(PORT, () => console.log(`Listening on port ${PORT}`));
 
 const contactEmail = nodemailer.createTransport({
 	service: "hotmail",

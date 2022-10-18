@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e5ec1c5f.css",
+    "main.js": "/static/js/main.8c11488c.js",
+    "static/media/anime-enma.png": "/static/media/anime-enma.c170c1a2639858e0a2f9.png",
+    "static/media/color-sharp.png": "/static/media/color-sharp.bea361cfef80fefc2d1e.png",
+    "static/media/color-sharp2.png": "/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
+    "static/media/me.png": "/static/media/me.79781b9bc01aab6dff54.png",
+    "static/media/contact.png": "/static/media/contact.f6dbc56264dc630e7243.png",
+    "static/media/banner.jpg": "/static/media/banner.7d0ec093826232f95bf9.jpg",
+    "static/media/projects-showcase.png": "/static/media/projects-showcase.64800b78ecf98f53df73.png",
+    "static/media/basketball-forum.png": "/static/media/basketball-forum.c7783821da6946c91dc5.png",
+    "static/media/CentraNo2-Bold.ttf": "/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/footer-bg.png": "/static/media/footer-bg.7bd67c0f73571d0acc02.png",
+    "static/media/puzzle-game.png": "/static/media/puzzle-game.e2bc0fa0c5d63faef110.png",
+    "static/media/photo-quiz.png": "/static/media/photo-quiz.d4e55fdb1b3aaac185b5.png",
+    "static/media/event-planner.png": "/static/media/event-planner.3b48e2eea484da976028.png",
+    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/meter2.svg": "/static/media/meter2.422509da336980dad244867c89a4f6bb.svg",
+    "static/media/meter1.svg": "/static/media/meter1.c96ef10ba13e49108a16cc778c9067d6.svg",
+    "static/media/meter3.svg": "/static/media/meter3.b42158cd88361983a9f05134ccbd1285.svg",
+    "index.html": "/index.html",
+    "main.e5ec1c5f.css.map": "/static/css/main.e5ec1c5f.css.map",
+    "main.8c11488c.js.map": "/static/js/main.8c11488c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e5ec1c5f.css",
+    "static/js/main.8c11488c.js"
+  ]
+}
