@@ -227,17 +227,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-left: 25px;
 }
 .banner img {
-  animation: updown 3s linear infinite;
+  animation: updown 10s linear infinite;
 }
 @keyframes updown {
     0% {
-        transform: translateY(-20px);
+        transform: translateY(-5px);
     }
     50% {
-        transform: translateY(20px);
+        transform: translateY(5px);
     }
     100% {
-        transform: translateY(-20px);
+        transform: translateY(-5px);
     }
 }
 .txt-rotate > .wrap {

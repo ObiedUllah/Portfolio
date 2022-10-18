@@ -40,7 +40,7 @@ export class Skills extends Component {
                                 <p>
                                     I am capable of writing clear and concise code in multiple programming languages.<br></br>
                                     Front-end : HTML, CSS, React, Django, Kotlin, Redux <br></br>
-                                    Back-end : JavaScript, Java, C#, Python, Oracle SQL, MySQL, MongoDB, Node.js, Express, REST APIs
+                                    Back-end : JavaScript, Java, C#, Python, Oracle SQL, MySQL, MongoDB, Node.js, Express, REST APIs, TypeScript
                                 </p>
                                 <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                                     <div className="item">
@@ -64,7 +64,7 @@ export class Skills extends Component {
                                         <h5>C#</h5>
                                     </div>
                                     <div className="item">
-                                        <img src={meter3} alt="Img" />
+                                        <img src={meter2} alt="Img" />
                                         <h5>SQL</h5>
                                     </div>
                                 </Carousel>

@@ -51,6 +51,7 @@
     ]
   },
   "devDependencies": {
+    "@types/styled-components": "^5.1.26",
     "tsconfig-paths": "^4.1.0"
   }
 }

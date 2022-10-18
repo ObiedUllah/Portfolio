@@ -1,7 +1,6 @@
 import { Col, Container, Row } from "react-bootstrap";
+import { EnvelopeFill, Github, Linkedin } from "react-bootstrap-icons";
 import React, { Component } from "react";
-
-import { Linkedin } from "react-bootstrap-icons";
 
 export class Footer extends Component {
     render() {
@@ -14,14 +13,14 @@ export class Footer extends Component {
                         </Col>
                         <Col size={12} sm={6} className="text-center text-sm-end">
                             <div className="social-icon">
-                                <a href="https://www.linkedin.com/in/obied-ullah/">
+                                <a href="https://www.linkedin.com/in/obied-ullah/" target="_blank" rel="noreferrer">
                                     <Linkedin />
                                 </a>
-                                <a href="https://www.linkedin.com/in/obied-ullah/">
-                                    <Linkedin />
+                                <a href="https://github.com/ObiedUllah" target="_blank" rel="noreferrer">
+                                    <Github />
                                 </a>
-                                <a href="https://www.linkedin.com/in/obied-ullah/">
-                                    <Linkedin />
+                                <a href="mailto:obied.ullah@hotmail.com" target="_blank" rel="noreferrer">
+                                    <EnvelopeFill />
                                 </a>
                             </div>
                             <p>Copyright 2022. All Rights Reserved</p>

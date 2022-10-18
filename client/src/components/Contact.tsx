@@ -4,7 +4,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import React, { Component } from "react";
 
 import TrackVisibility from "react-on-screen";
-import contactImg from "../assets/images/contact-img.svg";
+import contactImg from "../assets/images/contact.png";
 
 const formInitialDetails = {
     firstName: "",

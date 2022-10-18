@@ -5,7 +5,7 @@ import React, { Component } from "react";
 
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import TrackVisibility from "react-on-screen";
-import headerImg from "../assets/images/header-img.svg";
+import headerImg from "../assets/images/me.png";
 
 const toRotate: string[] = ["Computer Scientist", "Front-end Developer", "Back-end Developer"];
 const period: number = 2000;
@@ -86,8 +86,9 @@ export class Banner extends Component<{}, State> {
                                         </h1>
                                         <p>
                                             I am a motivated programmer who enjoys taking on difficult challenges and improving my skills in any facet of life.
-                                            I have a DEC in Computer Science at Dawson College and a Diploma in Full-Stack Web Development at Concordia University.
-                                            The numerous challenges I have encountered have helped me acquire analytical and problem-solving skills.
+                                            I have a degree in Computer Science from Dawson College and a Diploma in Full-Stack Web Development from Concordia University.
+                                            I cam write clear and concise code and I love to solve complex algorithms.
+
                                         </p>
                                         <button onClick={() => window.location.href = "https://www.linkedin.com/in/obied-ullah/"}>
                                             Let’s Connect <ArrowRightCircle size={25} />

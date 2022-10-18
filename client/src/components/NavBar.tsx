@@ -68,7 +68,7 @@ export class NavBar extends Component<{}, State> {
                                 className={this.state.activeLink === "projects" ? "active navbar-link" : "navbar-link"}
                                 onClick={() => this.onUpdateActiveLink("projects")}
                             >
-                                Projects
+                                Experience
                             </Nav.Link>
                         </Nav>
                         <span className="navbar-text">
