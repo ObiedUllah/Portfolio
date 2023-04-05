@@ -39,9 +39,9 @@ export class Banner extends Component<{}, State> {
     };
 
     tick() {
-        let i = this.state.loopNum % toRotate.length;
-        let fullText = toRotate[i];
-        let updatedText = this.state.isDeleting
+        let i: number = this.state.loopNum % toRotate.length;
+        let fullText: string = toRotate[i];
+        let updatedText: string = this.state.isDeleting
             ? fullText.substring(0, this.state.text.length - 1)
             : fullText.substring(0, this.state.text.length + 1);
 
