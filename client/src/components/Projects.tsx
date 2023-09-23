@@ -19,7 +19,7 @@ const projects: { title: string; description: string; imgUrl: string; link: stri
 		title: "Anime Enma",
 		description: "Web Application (React)",
 		imgUrl: projImg1,
-		link: "https://anime-enma.herokuapp.com/",
+		link: "https://animeenma.netlify.app/",
 	},
 	{
 		title: "Puzzle Game",
@@ -37,7 +37,7 @@ const projects: { title: string; description: string; imgUrl: string; link: stri
 		title: "Basketball Forum and Stats Tracker",
 		description: "Web Development (Django)",
 		imgUrl: projImg4,
-		link: "#",
+		link: "https://nyan-goku.netlify.app/",
 	},
 	{
 		title: "Event Planner",
@@ -112,17 +112,21 @@ export class Projects extends Component {
 																students.
 															</li>
 															<li>
-																Provided personalized support and guidance to students with varying skill levels and
-																backgrounds, helping them in completing coding exercises and projects while ensuring
-																student engagement.
+																Tailored support and guidance to meet the individual needs of students with varying
+																skill levels and backgrounds. Assisted students in successfully completing coding
+																exercises and projects, fostering active engagement, and promoting a deeper
+																understanding of the material.
 															</li>
 															<li>
-																Utilized a variety of unique teaching techniques to engage students and ensure
-																comprehension of material.
+																Employed a diverse range of innovative teaching techniques to create an engaging and
+																dynamic learning environment. These techniques enhanced student participation and
+																comprehension, making complex topics more accessible
 															</li>
 															<li>
-																Reviewed and supplied constructive feedback for up to twenty coding assignments and
-																projects per day.
+																Meticulously reviewed and provided constructive feedback for a high volume of up to
+																twenty coding assignments and projects daily. This feedback played a pivotal role in
+																students' skill development and project improvement, contributing to their overall
+																success
 															</li>
 														</ul>
 														<hr />
@@ -131,34 +135,55 @@ export class Projects extends Component {
 														<h5>Tecsys, Montreal, Quebec</h5>
 														<ul style={{ color: "gray", marginTop: "10px" }}>
 															<li>
-																Worked in teams to solve up to five tickets per day from corporate partners delivering
-																satisfactory results.
-															</li>
-															<li>Queried SQL statements to supply solutions for differing problems.</li>
-															<li>
-																Utilized OrderDynamics’ order management platform and Agiloft to debug and maintain
-																business processes.
+																Worked closely within a collaborative team environment, addressing and resolving up to
+																five support tickets daily from corporate partners. Demonstrated a commitment to
+																delivering consistently satisfactory results and maintaining strong working
+																relationships.
 															</li>
 															<li>
-																Performed server maintenance to provide stability using Datadog and Remote Desktop
-																Manager.
+																Leveraged SQL expertise to formulate and execute precise queries, effectively
+																identifying and delivering tailored solutions for a wide array of complex issues and
+																challenges.
 															</li>
 															<li>
-																Participated in daily scrums every morning to plan the workload and dicuss ongoing
-																tickets
+																Employed specialized software tools, including OrderDynamics' order management
+																platform and Agiloft, to efficiently diagnose, troubleshoot, and enhance critical
+																business processes. Maintained these systems to ensure optimal performance.
+															</li>
+															<li>
+																Played a vital role in ensuring server stability by performing routine maintenance
+																tasks. Leveraged tools like Datadog and Remote Desktop Manager to proactively monitor
+																and address potential issues, thus ensuring uninterrupted business operations.
+															</li>
+															<li>
+																Actively engaged in daily scrum meetings each morning, collaborating with the team to
+																plan workloads, share insights, and discuss ongoing support tickets. This
+																participation contributed to streamlined workflows and effective issue resolution.
 															</li>
 														</ul>
 														<hr />
 														<h4>Manager</h4>
 														<h5>Pizza St-Laurent, Montreal, Quebec</h5>
 														<ul style={{ color: "gray", marginTop: "10px" }}>
-															<li>Responsible for ensuring that standards are consistent.</li>
 															<li>
-																Offered fast and friendly customer service in person or by phone to ensure customer
-																satisfaction
+																Spearheaded the development and enforcement of standardized procedures, ensuring
+																operational consistency and quality across all aspects of the business.
 															</li>
-															<li>Achieved 100% accuracy in cash handling and reconciliation during each shift.</li>
-															<li>Trained four new employees who consistently met or exceeded performance targets.</li>
+															<li>
+																Delivered prompt, courteous, and personalized customer service in both face-to-face
+																interactions and over the phone, resulting in heightened customer satisfaction and
+																loyalty
+															</li>
+															<li>
+																Demonstrated exceptional precision and diligence in cash handling, achieving a
+																flawless record of 100% accuracy in cash management and reconciliation for every shift
+																worked
+															</li>
+															<li>
+																Acted as a mentor and trainer for four new employees, fostering their growth and
+																development to consistently surpass performance targets and contribute to the
+																organization's success.
+															</li>
 														</ul>
 													</Box>
 												</Tab.Pane>
