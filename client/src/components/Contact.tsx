@@ -1,9 +1,10 @@
 import "animate.css";
 
 import { Col, Container, Row } from "react-bootstrap";
-import React, { Component } from "react";
+import { Component } from "react";
 
 import TrackVisibility from "react-on-screen";
+import { contact } from "src/apis/apiConfig";
 import contactImg from "../assets/images/contact.png";
 
 const formInitialDetails = {
@@ -45,7 +46,7 @@ export class Contact extends Component<{}, State> {
     async handleSubmit(e: any) {
         e.preventDefault();
         this.setState({ buttonText: "Sending..." });
-        let response = await fetch("/contact", {
+        let response = await fetch(contact, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json;charset=utf-8",

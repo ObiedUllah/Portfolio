@@ -9,7 +9,14 @@ require("dotenv").config();
 
 const PORT = process.env.PORT || 5000;
 const app = express();
-app.use(cors());
+
+const allowedOrigins = ["https://obied-ullah-portfolio.onrender.com", "https://another-allowed-origin.com"];
+const corsOptions = {
+	origin: allowedOrigins,
+	methods: ["GET", "POST", "PUT", "DELETE"],
+};
+
+app.use(cors(corsOptions));
 app.use(express.json());
 app.use("/", router);
 
