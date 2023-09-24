@@ -27,7 +27,7 @@ app.use("/", router);
 // });
 
 // Node spins up our server and sets it to listen on set port
-app.listen(PORT, () => console.log(`Listening on port ${PORT}`));
+// app.listen(PORT, () => console.log(`Listening on port ${PORT}`));
 
 const contactEmail = nodemailer.createTransport({
 	service: "hotmail",
@@ -71,3 +71,5 @@ router.post("/contact", (req, res) => {
 		}
 	});
 });
+
+module.exports = app;
