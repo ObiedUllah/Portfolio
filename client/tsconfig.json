@@ -4,7 +4,7 @@
     "allowJs": true,
     "outDir": "build",
     "moduleResolution": "node",
-    "typeRoots": ["node_modules/@types"],
+    "typeRoots": ["node_modules/@types", "./src/@types"],
     "types": ["styled-components"],
     "lib": ["ES2015", "DOM"],
     "module": "commonjs",
