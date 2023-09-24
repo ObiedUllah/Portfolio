@@ -40,7 +40,7 @@ contactEmail.verify((error) => {
 });
 
 router.get("/", (req, res) => {
-	res.json({ code: 200, status: "HERE" });
+	res.json({ code: 200, status: "Access Granted" });
 });
 
 router.post("/contact", (req, res) => {
