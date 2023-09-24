@@ -61,7 +61,7 @@ export class Projects extends Component {
 					<Row>
 						<Col size={12}>
 							<TrackVisibility>
-								{({ isVisible }) => (
+								{({ isVisible }: { isVisible: boolean }) => (
 									<div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
 										<h2>Experience</h2>
 										<p></p>
