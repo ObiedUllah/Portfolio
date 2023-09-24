@@ -103,7 +103,7 @@ export class Projects extends Component {
 												</Tab.Pane>
 												<Tab.Pane eventKey="third">
 													<Box>
-														<h4>Instructor</h4>
+														<h4>Web Development Instructor</h4>
 														<h5>Concordia Bootcamps, Montreal, Quebec</h5>
 														<ul style={{ color: "gray", marginTop: "10px" }}>
 															<li>
