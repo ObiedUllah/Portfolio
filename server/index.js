@@ -45,6 +45,10 @@ contactEmail.verify((error) => {
 	}
 });
 
+router.get("/", (req, res) => {
+	res.json({ code: 200, status: "HERE" });
+});
+
 router.post("/contact", (req, res) => {
 	const name = req.body.firstName + req.body.lastName;
 	const email = req.body.email;
