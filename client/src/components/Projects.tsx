@@ -12,7 +12,6 @@ import projImg3 from "../assets/images/project/projects-showcase.png";
 import projImg4 from "../assets/images/project/basketball-forum.png";
 import projImg5 from "../assets/images/project/event-planner.png";
 import projImg6 from "../assets/images/project/photo-quiz.png";
-import styled from "styled-components";
 
 const projects: { title: string; description: string; imgUrl: string; link: string }[] = [
 	{
@@ -86,7 +85,7 @@ export class Projects extends Component {
 													</Row>
 												</Tab.Pane>
 												<Tab.Pane eventKey="second">
-													<Box>
+													<div style={{ display: "flex", alignItems: "center", flexDirection: "column" }}>
 														<h4>DEC Technique - Computer Science Technology</h4>
 														<h5>Dawson College, Montreal, Quebec </h5>
 														<p>
@@ -99,13 +98,13 @@ export class Projects extends Component {
 														<p>
 															Technologies included: HTML, CSS, JavaScript, React, MongoDB, Node.js, Express, REST APIs
 														</p>
-													</Box>
+													</div>
 												</Tab.Pane>
 												<Tab.Pane eventKey="third">
-													<Box>
+													<div style={{ display: "flex", alignItems: "center", flexDirection: "column" }}>
 														<h4>Web Development Instructor</h4>
 														<h5>Concordia Bootcamps, Montreal, Quebec</h5>
-														<ul style={{ color: "gray", marginTop: "10px" }}>
+														<ul style={{ color: "gray", marginTop: "10px", width: "80%" }}>
 															<li>
 																Delivered a comprehensive curriculum on web development fundamentals, covering HTML,
 																CSS, JavaScript, React, Node.js, Express, and MongoDB, to a class of up to thirty-five
@@ -133,7 +132,7 @@ export class Projects extends Component {
 
 														<h4>Associate Technical Support Analyst (Intern)</h4>
 														<h5>Tecsys, Montreal, Quebec</h5>
-														<ul style={{ color: "gray", marginTop: "10px" }}>
+														<ul style={{ color: "gray", marginTop: "10px", width: "80%" }}>
 															<li>
 																Worked closely within a collaborative team environment, addressing and resolving up to
 																five support tickets daily from corporate partners. Demonstrated a commitment to
@@ -164,7 +163,7 @@ export class Projects extends Component {
 														<hr />
 														<h4>Manager </h4>
 														<h5>Pizza St-Laurent, Montreal, Quebec</h5>
-														<ul style={{ color: "gray", marginTop: "10px" }}>
+														<ul style={{ color: "gray", marginTop: "10px", width: "80%" }}>
 															<li>
 																Spearheaded the development and enforcement of standardized procedures, ensuring
 																operational consistency and quality across all aspects of the business.
@@ -185,7 +184,7 @@ export class Projects extends Component {
 																organization's success.
 															</li>
 														</ul>
-													</Box>
+													</div>
 												</Tab.Pane>
 											</Tab.Content>
 										</Tab.Container>
@@ -200,17 +199,5 @@ export class Projects extends Component {
 		);
 	}
 }
-
-const Box = styled.div`
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-
-	ul {
-		width: 60%;
-	}
-	li {
-	}
-`;
 
 export default Projects;
