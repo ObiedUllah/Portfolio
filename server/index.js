@@ -10,7 +10,7 @@ require("dotenv").config();
 const PORT = process.env.PORT || 5000;
 const app = express();
 
-const allowedOrigins = ["https://obiedullah.netlify.app/", "https://obied-ullah-portfolio.onrender.com", "https://another-allowed-origin.com"];
+const allowedOrigins = ["https://obiedullah.netlify.app", "https://obied-ullah-portfolio.onrender.com", "https://another-allowed-origin.com"];
 const corsOptions = {
 	origin: allowedOrigins,
 	methods: ["GET", "POST", "PUT", "DELETE"],
@@ -21,10 +21,10 @@ app.use(express.json());
 app.use("/", router);
 
 //build
-app.use(express.static(path.join(__dirname, "build")));
-app.get("/*", (req, res) => {
-	res.sendFile(path.join(__dirname, "build", "index.html"));
-});
+// app.use(express.static(path.join(__dirname, "build")));
+// app.get("/*", (req, res) => {
+// 	res.sendFile(path.join(__dirname, "build", "index.html"));
+// });
 
 // Node spins up our server and sets it to listen on set port
 app.listen(PORT, () => console.log(`Listening on port ${PORT}`));
