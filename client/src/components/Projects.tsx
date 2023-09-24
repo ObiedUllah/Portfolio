@@ -162,7 +162,7 @@ export class Projects extends Component {
 															</li>
 														</ul>
 														<hr />
-														<h4>Manager</h4>
+														<h4>Manager </h4>
 														<h5>Pizza St-Laurent, Montreal, Quebec</h5>
 														<ul style={{ color: "gray", marginTop: "10px" }}>
 															<li>
